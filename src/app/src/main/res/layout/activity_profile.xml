@@ -40,11 +40,13 @@
             android:id="@+id/pilih_event_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/pilih_event"/>
+            android:text="@string/pilih_event"
+            android:textAllCaps="false"/>
         <Button
             android:id="@+id/pilih_guest_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/pilih_guest"/>
+            android:text="@string/pilih_guest"
+            android:textAllCaps="false"/>
     </LinearLayout>
 </RelativeLayout>

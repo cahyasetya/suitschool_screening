@@ -8,11 +8,9 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import java.util.List;
 
-import id.ydev.suitschoolscreening.GuestActivity;
 import id.ydev.suitschoolscreening.ProfileActivity;
 import id.ydev.suitschoolscreening.R;
 import id.ydev.suitschoolscreening.model.Guest;

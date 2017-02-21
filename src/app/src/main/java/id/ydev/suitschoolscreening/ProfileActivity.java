@@ -1,7 +1,6 @@
 package id.ydev.suitschoolscreening;
 
 import android.content.Intent;
-import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -20,8 +19,6 @@ public class ProfileActivity extends AppCompatActivity {
 
         Intent intent=getIntent();
         String nama=intent.getStringExtra("nama");
-        String event=intent.getStringExtra("nama_event");
-        String guest=intent.getStringExtra("nama_guest");
 
         TextView namaTextView=(TextView)findViewById(R.id.nama_user);
         pilihEventButton=(Button)findViewById(R.id.pilih_event_button);

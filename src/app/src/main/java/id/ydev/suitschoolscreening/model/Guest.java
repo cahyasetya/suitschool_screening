@@ -1,10 +1,6 @@
 package id.ydev.suitschoolscreening.model;
 
-import android.media.Image;
-
 import com.google.gson.annotations.SerializedName;
-
-import java.util.Date;
 
 /**
  * Created by cahya on 21/02/17.
