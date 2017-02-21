@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_guest"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="id.ydev.suitschoolscreening.GuestActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/guest"
+        android:textSize="28sp"
+        android:background="@color/grey"
+        android:gravity="center"
+        android:layout_marginBottom="@dimen/bottom_title"
+        android:textStyle="bold"/>
+    <GridView
+        android:id="@+id/guest_gridview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:numColumns="2"
+        android:columnWidth="@dimen/image_size"
+        android:verticalSpacing="@dimen/gridview_spacing"
+        android:horizontalSpacing="@dimen/gridview_spacing" />
+
+</LinearLayout>

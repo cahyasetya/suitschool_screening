@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Suitschool Screening</string>
+    <string name="masukkan_nama">masukkan nama</string>
+    <string name="next">next</string>
+    <string name="nama">Nama</string>
+    <string name="nama_profile">: %1$s</string>
+    <string name="pilih_event">pilih event</string>
+    <string name="pilih_guest">pilih guest</string>
+    <string name="event">EVENT</string>
+    <string name="guest">GUEST</string>
+</resources>
